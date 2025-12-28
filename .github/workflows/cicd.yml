@@ -19,3 +19,10 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn compile
+
+
+    - name: Print message
+      run: echo "Hello from GitHub Actions!" 
+
+
+   
